@@ -1,0 +1,541 @@
+{
+  "summary": {
+    "qaDate": "2026-07-02T04:58:59.422Z",
+    "sourceJson": "docs/audit/data/migrated-assets-batch-2.json",
+    "sourcePage": "https://tatianasf.com/photo_portfolio/",
+    "totalAssetsChecked": 28,
+    "downloadedAssetsChecked": 22,
+    "mappedAssetsChecked": 6,
+    "passedAssets": 28,
+    "failedAssets": 0,
+    "warningCount": 0,
+    "folderSummary": {
+      "public/images/pages/photo-portfolio": {
+        "exists": true,
+        "fileCount": 22
+      },
+      "public/images/pages/home": {
+        "exists": true,
+        "fileCount": 12
+      },
+      "public/images/pages/hackathon-services": {
+        "exists": true,
+        "fileCount": 26
+      },
+      "public/icons": {
+        "exists": true,
+        "fileCount": 3
+      },
+      "public/og": {
+        "exists": true,
+        "fileCount": 3
+      }
+    },
+    "duplicateMappingNotes": {
+      "mappedAssets": 6,
+      "mappedToBatch1": 6,
+      "unnecessaryDuplicateDownloads": 0,
+      "notes": [
+        "https://tatianasf.com/wp-content/uploads/2026/03/IMG_2510.CR3_-1024x683.jpg -> public/images/pages/hackathon-services/img-2510.cr3-1024x683.jpg",
+        "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122332-768x968.jpg -> public/images/pages/hackathon-services/screenshot-20251112-122332-768x968.jpg",
+        "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122332-812x1024.jpg -> public/images/pages/hackathon-services/screenshot-20251112-122332-812x1024.jpg",
+        "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170641-1024x764.jpg -> public/images/pages/hackathon-services/screenshot-20260323-170641-1024x764.jpg",
+        "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170641-300x224.jpg -> public/images/pages/hackathon-services/screenshot-20260323-170641-300x224.jpg",
+        "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-171027-756x1024.jpg -> public/images/pages/hackathon-services/screenshot-20260323-171027-756x1024.jpg"
+      ]
+    },
+    "documentationConsistency": {
+      "passed": true,
+      "checks": [
+        {
+          "label": "Assets migration manifest includes Batch 2",
+          "passed": true,
+          "note": "Manifest should include Batch 2 totals and duplicate mapping notes."
+        },
+        {
+          "label": "Asset migration plan records Batch 2 migration and QA status",
+          "passed": true,
+          "note": "Plan should distinguish migration and QA completion from page rebuild work."
+        },
+        {
+          "label": "Image inventory avoids claiming full asset migration is complete",
+          "passed": true,
+          "note": "Inventory should keep completed batches separate from remaining inventory."
+        },
+        {
+          "label": "Migration notes keep content migration incomplete",
+          "passed": true,
+          "note": "Assets are available for future work, but pages are not rebuilt."
+        },
+        {
+          "label": "Parity checklist includes photo portfolio asset checks",
+          "passed": true,
+          "note": "Checklist should record Batch 2 asset QA separately from page parity."
+        }
+      ]
+    },
+    "byStatus": {
+      "downloaded": 22,
+      "mapped-existing": 6
+    },
+    "byCategory": {
+      "photo-portfolio": 28
+    }
+  },
+  "records": [
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/file_000000001e5071fd9e0f4e4ad09b9cbf-683x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/file-000000001e5071fd9e0f4e4ad09b9cbf-683x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 99295,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/file_0000000066c071fdb585484c0a5d3130-1-683x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/file-0000000066c071fdb585484c0a5d3130-1-683x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 46350,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/file_00000000a84871f8bfbb24671e751631-683x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/file-00000000a84871f8bfbb24671e751631-683x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 80394,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/file_00000000c73071f8b8cb6bae88183328-683x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/file-00000000c73071f8b8cb6bae88183328-683x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 53042,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/frty-300x201.png",
+      "localPath": "public/images/pages/photo-portfolio/frty-300x201.png",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 97396,
+      "extension": ".png",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: PNG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_0193-300x225.jpg",
+      "localPath": "public/images/pages/photo-portfolio/img-0193-300x225.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 31980,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_2510.CR3_-1024x683.jpg",
+      "localPath": "public/images/pages/hackathon-services/img-2510.cr3-1024x683.jpg",
+      "mappedSourcePath": "public/images/pages/hackathon-services/img-2510.cr3-1024x683.jpg",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/hackathon_services/, https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 134306,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: mapped-existing.",
+        "Mapped source path: public/images/pages/hackathon-services/img-2510.cr3-1024x683.jpg."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_2510.CR3_-scaled.jpg",
+      "localPath": "public/images/pages/photo-portfolio/img-2510.cr3-scaled.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 570492,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Photography-TatianaSF-01-683x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/photography-tatianasf-01-683x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 86278,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Photography-TatianaSF-02-683x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/photography-tatianasf-02-683x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 49761,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PN-2.png",
+      "localPath": "public/images/pages/photo-portfolio/pn-2.png",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 964014,
+      "extension": ".png",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: PNG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/04/prop-1.jpg",
+      "localPath": "public/images/pages/photo-portfolio/prop-1.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 259170,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/04/prop-2-576x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/prop-2-576x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 133751,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/04/prop-3-638x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/prop-3-638x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 147650,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20240406_231008876-scaled.jpg",
+      "localPath": "public/images/pages/photo-portfolio/pxl-20240406-231008876-scaled.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 851848,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20260111_194742330-576x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/pxl-20260111-194742330-576x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 112568,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122332-768x968.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122332-768x968.jpg",
+      "mappedSourcePath": "public/images/pages/hackathon-services/screenshot-20251112-122332-768x968.jpg",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/hackathon_services/, https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 160577,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: mapped-existing.",
+        "Mapped source path: public/images/pages/hackathon-services/screenshot-20251112-122332-768x968.jpg."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122332-812x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122332-812x1024.jpg",
+      "mappedSourcePath": "public/images/pages/hackathon-services/screenshot-20251112-122332-812x1024.jpg",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/hackathon_services/, https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 174619,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: mapped-existing.",
+        "Mapped source path: public/images/pages/hackathon-services/screenshot-20251112-122332-812x1024.jpg."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-161418-690x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/screenshot-20260323-161418-690x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 80882,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170641-1024x764.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20260323-170641-1024x764.jpg",
+      "mappedSourcePath": "public/images/pages/hackathon-services/screenshot-20260323-170641-1024x764.jpg",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/hackathon_services/, https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 94283,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: mapped-existing.",
+        "Mapped source path: public/images/pages/hackathon-services/screenshot-20260323-170641-1024x764.jpg."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170641-300x224.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20260323-170641-300x224.jpg",
+      "mappedSourcePath": "public/images/pages/hackathon-services/screenshot-20260323-170641-300x224.jpg",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/hackathon_services/, https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 22120,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: mapped-existing.",
+        "Mapped source path: public/images/pages/hackathon-services/screenshot-20260323-170641-300x224.jpg."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170756.jpg",
+      "localPath": "public/images/pages/photo-portfolio/screenshot-20260323-170756.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 229544,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170955-740x1024.jpg",
+      "localPath": "public/images/pages/photo-portfolio/screenshot-20260323-170955-740x1024.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 127192,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-171027-756x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20260323-171027-756x1024.jpg",
+      "mappedSourcePath": "public/images/pages/hackathon-services/screenshot-20260323-171027-756x1024.jpg",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/hackathon_services/, https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 123743,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: mapped-existing.",
+        "Mapped source path: public/images/pages/hackathon-services/screenshot-20260323-171027-756x1024.jpg."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Swissnex-Mentor-Meetup-_-February-3-2026-_-Flickr-1536x977.png",
+      "localPath": "public/images/pages/photo-portfolio/swissnex-mentor-meetup-february-3-2026-flickr-1536x977.png",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 1248456,
+      "extension": ".png",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: PNG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result002-1-300x225.jpg",
+      "localPath": "public/images/pages/photo-portfolio/tatianasf-hackathonsf-result002-1-300x225.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 31508,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result01y-300x225.jpg",
+      "localPath": "public/images/pages/photo-portfolio/tatianasf-hackathonsf-result01y-300x225.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/photo_portfolio/",
+      "exists": true,
+      "sizeBytes": 42020,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF.jpg",
+      "localPath": "public/images/pages/photo-portfolio/tatianasf.jpg",
+      "mappedSourcePath": "",
+      "category": "photo-portfolio",
+      "usagePage": "https://tatianasf.com/, https://tatianasf.com/hackathon_services/, https://tatianasf.com/photo_portfolio/, https://tatianasf.com/openai-codex-design-guide/, https://tatianasf.com/hello-world/, https://tatianasf.com/category/uncategorized/",
+      "exists": true,
+      "sizeBytes": 148108,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    }
+  ]
+}

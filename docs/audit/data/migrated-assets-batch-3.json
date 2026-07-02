@@ -1,0 +1,251 @@
+{
+  "summary": {
+    "batchName": "Asset Migration Batch 3",
+    "migratedAt": "2026-07-02T04:45:15.642Z",
+    "sourceInventoryFile": "docs/audit/data/wordpress-assets.json",
+    "sourcePage": "https://tatianasf.com/openai-codex-design-guide/",
+    "targetFolder": "public/images/pages/openai-codex-design-guide",
+    "selection": "Public image/media records used by /openai-codex-design-guide/, with already-migrated files mapped and optional emoji/srcset-only variants skipped.",
+    "totalAttempted": 11,
+    "totalDownloaded": 0,
+    "totalMapped": 5,
+    "totalSkipped": 6,
+    "totalFailed": 0,
+    "duplicateMappingsFromBatch1": 4,
+    "duplicateMappingsFromBatch2": 1,
+    "byCategory": {
+      "optional-emoji": 2,
+      "site-icon": 3,
+      "srcset-variant": 4,
+      "openai-codex-design-guide": 2
+    }
+  },
+  "records": [
+    {
+      "originalUrl": "https://s.w.org/images/core/emoji/17.0.2/svg/1f495.svg",
+      "localPath": "public/images/legacy/emoji/1f495.svg",
+      "status": "skipped",
+      "contentType": "image/svg+xml",
+      "bytes": 0,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "optional-emoji",
+      "criticality": "optional",
+      "sourceBatch": "",
+      "notes": [
+        "Skipped optional external WordPress emoji asset; native text rendering is sufficient unless exact emoji image parity is later required."
+      ]
+    },
+    {
+      "originalUrl": "https://s.w.org/images/core/emoji/17.0.2/svg/2b50.svg",
+      "localPath": "public/images/legacy/emoji/2b50.svg",
+      "status": "skipped",
+      "contentType": "image/svg+xml",
+      "bytes": 0,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "optional-emoji",
+      "criticality": "optional",
+      "sourceBatch": "",
+      "notes": [
+        "Skipped optional external WordPress emoji asset; native text rendering is sufficient unless exact emoji image parity is later required."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/cropped-TatianaSF-283x300-1-180x180.jpg",
+      "localPath": "public/icons/cropped-tatianasf-283x300-1-180x180.jpg",
+      "status": "mapped-existing",
+      "contentType": "image/jpeg",
+      "bytes": 19180,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "site-icon",
+      "criticality": "critical",
+      "sourceBatch": "Batch 1",
+      "notes": [
+        "Mapped to existing Batch 1 file to avoid a duplicate download."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/cropped-TatianaSF-283x300-1-192x192.jpg",
+      "localPath": "public/icons/cropped-tatianasf-283x300-1-192x192.jpg",
+      "status": "mapped-existing",
+      "contentType": "image/jpeg",
+      "bytes": 19766,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "site-icon",
+      "criticality": "critical",
+      "sourceBatch": "Batch 1",
+      "notes": [
+        "Mapped to existing Batch 1 file to avoid a duplicate download."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/cropped-TatianaSF-283x300-1-32x32.jpg",
+      "localPath": "public/icons/cropped-tatianasf-283x300-1-32x32.jpg",
+      "status": "mapped-existing",
+      "contentType": "image/jpeg",
+      "bytes": 10880,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "site-icon",
+      "criticality": "critical",
+      "sourceBatch": "Batch 1",
+      "notes": [
+        "Mapped to existing Batch 1 file to avoid a duplicate download."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF-283x300.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-283x300.jpg",
+      "status": "skipped",
+      "contentType": "image/jpeg",
+      "bytes": 0,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "srcset-variant",
+      "criticality": "review",
+      "sourceBatch": "",
+      "notes": [
+        "Skipped srcset-only variant; not needed for the Batch 3 displayed visual asset set."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF-50x53.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-50x53.jpg",
+      "status": "skipped",
+      "contentType": "image/jpeg",
+      "bytes": 0,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "srcset-variant",
+      "criticality": "review",
+      "sourceBatch": "",
+      "notes": [
+        "Skipped srcset-only variant; not needed for the Batch 3 displayed visual asset set."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF-768x813.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-768x813.jpg",
+      "status": "skipped",
+      "contentType": "image/jpeg",
+      "bytes": 0,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "srcset-variant",
+      "criticality": "review",
+      "sourceBatch": "",
+      "notes": [
+        "Skipped srcset-only variant; not needed for the Batch 3 displayed visual asset set."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF-967x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-967x1024.jpg",
+      "status": "skipped",
+      "contentType": "image/jpeg",
+      "bytes": 0,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "srcset-variant",
+      "criticality": "review",
+      "sourceBatch": "",
+      "notes": [
+        "Skipped srcset-only variant; not needed for the Batch 3 displayed visual asset set."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF.jpg",
+      "localPath": "public/images/pages/photo-portfolio/tatianasf.jpg",
+      "status": "mapped-existing",
+      "contentType": "image/jpeg",
+      "bytes": 148108,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "openai-codex-design-guide",
+      "criticality": "review",
+      "sourceBatch": "Batch 2",
+      "notes": [
+        "Mapped to existing Batch 2 file to avoid a duplicate download."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/OpenAI-Codex-Design-Guide-small.jpg",
+      "localPath": "public/og/openai-codex-design-guide-small.jpg",
+      "status": "mapped-existing",
+      "contentType": "image/jpeg",
+      "bytes": 1529,
+      "pageUsage": [
+        "https://tatianasf.com/openai-codex-design-guide/"
+      ],
+      "category": "openai-codex-design-guide",
+      "criticality": "critical",
+      "sourceBatch": "Batch 1",
+      "notes": [
+        "Mapped to existing Batch 1 file to avoid a duplicate download."
+      ]
+    }
+  ]
+}

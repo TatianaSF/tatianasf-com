@@ -1,0 +1,718 @@
+{
+  "summary": {
+    "qaDate": "2026-07-02T04:58:44.988Z",
+    "sourceJson": "docs/audit/data/migrated-assets-batch-1.json",
+    "totalAssetsChecked": 44,
+    "passedAssets": 44,
+    "failedAssets": 0,
+    "warningCount": 0,
+    "folderSummary": {
+      "public/icons": {
+        "exists": true,
+        "fileCount": 3
+      },
+      "public/og": {
+        "exists": true,
+        "fileCount": 3
+      },
+      "public/images/pages/home": {
+        "exists": true,
+        "fileCount": 12
+      },
+      "public/images/pages/hackathon-services": {
+        "exists": true,
+        "fileCount": 26
+      }
+    },
+    "duplicateWarnings": [],
+    "documentationConsistency": {
+      "passed": true,
+      "checks": [
+        {
+          "label": "Batch 1 manifest total matches source JSON",
+          "passed": true,
+          "note": "Expected downloaded 44 and failed 0."
+        },
+        {
+          "label": "Batch 1 manifest category count matches JSON for icon",
+          "passed": true,
+          "note": "Expected 3."
+        },
+        {
+          "label": "Batch 1 manifest category count matches JSON for open-graph",
+          "passed": true,
+          "note": "Expected 3."
+        },
+        {
+          "label": "Batch 1 manifest category count matches JSON for homepage",
+          "passed": true,
+          "note": "Expected 12."
+        },
+        {
+          "label": "Batch 1 manifest category count matches JSON for hackathon-services",
+          "passed": true,
+          "note": "Expected 26."
+        },
+        {
+          "label": "Asset migration plan records Batch 1 QA status",
+          "passed": true,
+          "note": "Plan should point to the QA report and contact sheet."
+        },
+        {
+          "label": "Image inventory avoids claiming full asset migration is complete",
+          "passed": true,
+          "note": "Inventory should keep Batch 1 separate from later batches."
+        },
+        {
+          "label": "Migration notes keep content migration incomplete",
+          "passed": true,
+          "note": "Assets are available for future work, but pages are not rebuilt."
+        }
+      ]
+    },
+    "byCategory": {
+      "icon": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "warnings": 0
+      },
+      "open-graph": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "warnings": 0
+      },
+      "homepage": {
+        "total": 12,
+        "passed": 12,
+        "failed": 0,
+        "warnings": 0
+      },
+      "hackathon-services": {
+        "total": 26,
+        "passed": 26,
+        "failed": 0,
+        "warnings": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/cropped-TatianaSF-283x300-1-180x180.jpg",
+      "localPath": "public/icons/cropped-tatianasf-283x300-1-180x180.jpg",
+      "category": "icon",
+      "exists": true,
+      "sizeBytes": 19180,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/cropped-TatianaSF-283x300-1-192x192.jpg",
+      "localPath": "public/icons/cropped-tatianasf-283x300-1-192x192.jpg",
+      "category": "icon",
+      "exists": true,
+      "sizeBytes": 19766,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/cropped-TatianaSF-283x300-1-32x32.jpg",
+      "localPath": "public/icons/cropped-tatianasf-283x300-1-32x32.jpg",
+      "category": "icon",
+      "exists": true,
+      "sizeBytes": 10880,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/837dbb8c-d676-4f29-9d26-f8b515a9a2ab-copied-media2.png",
+      "localPath": "public/og/837dbb8c-d676-4f29-9d26-f8b515a9a2ab-copied-media2.png",
+      "category": "open-graph",
+      "exists": true,
+      "sizeBytes": 188565,
+      "extension": ".png",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: PNG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/OpenAI-Codex-Design-Guide-small.jpg",
+      "localPath": "public/og/openai-codex-design-guide-small.jpg",
+      "category": "open-graph",
+      "exists": true,
+      "sizeBytes": 1529,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Swissnex-Mentor-Meetup-_-February-3-2026-_-Flickr.png",
+      "localPath": "public/og/swissnex-mentor-meetup-february-3-2026-flickr.png",
+      "category": "open-graph",
+      "exists": true,
+      "sizeBytes": 1585576,
+      "extension": ".png",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: PNG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/Hubspot_Inbound-sales-1024x790.png",
+      "localPath": "public/images/pages/home/hubspot-inbound-sales-1024x790.png",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 44884,
+      "extension": ".png",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: PNG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/IMG_1249.jpg",
+      "localPath": "public/images/pages/home/img-1249.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 119063,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_20260311_231122_941.jpg",
+      "localPath": "public/images/pages/home/img-20260311-231122-941.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 468504,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Photo-in-Nov-1-2025-HackathonSF-Google-Photos-12-1536x1154.jpg",
+      "localPath": "public/images/pages/home/photo-in-nov-1-2025-hackathonsf-google-photos-12-1536x1154.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 307559,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260303-105831-1.jpg",
+      "localPath": "public/images/pages/home/screenshot-20260303-105831-1.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 86622,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260303-105849.png",
+      "localPath": "public/images/pages/home/screenshot-20260303-105849.png",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 2018844,
+      "extension": ".png",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: PNG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260305-2353122-768x357.jpg",
+      "localPath": "public/images/pages/home/screenshot-20260305-2353122-768x357.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 49103,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/tatianasf-01.jpg",
+      "localPath": "public/images/pages/home/tatianasf-01.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 540054,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/tatianasf-02.jpg",
+      "localPath": "public/images/pages/home/tatianasf-02.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 314617,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/tatianasf-04.jpg",
+      "localPath": "public/images/pages/home/tatianasf-04.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 224008,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/tatianasf-08-1.jpg",
+      "localPath": "public/images/pages/home/tatianasf-08-1.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 271860,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/06/TatianaSF-photo-main.jpg",
+      "localPath": "public/images/pages/home/tatianasf-photo-main.jpg",
+      "category": "homepage",
+      "exists": true,
+      "sizeBytes": 179016,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/%F0%9F%92%B2010%F0%9F%92%B2-Tsf-Additional-Services-Infographic_20260329_164804_0000-691x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/010-tsf-additional-services-infographic-20260329-164804-0000-691x1024.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 76763,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/20250714_144816-COLLAGE-1-1024x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/20250714-144816-collage-1-1024x1024.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 238165,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/837dbb8c-d676-4f29-9d26-f8b515a9a2ab-copied-media2-1536x864.png",
+      "localPath": "public/images/pages/hackathon-services/837dbb8c-d676-4f29-9d26-f8b515a9a2ab-copied-media2-1536x864.png",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 212101,
+      "extension": ".png",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: PNG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/DSC_0758-1024x683.jpg",
+      "localPath": "public/images/pages/hackathon-services/dsc-0758-1024x683.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 112919,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_0271-1152x1536.jpg",
+      "localPath": "public/images/pages/hackathon-services/img-0271-1152x1536.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 265296,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_0334-1024x768.jpg",
+      "localPath": "public/images/pages/hackathon-services/img-0334-1024x768.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 172766,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_20260311_231122_941-1-768x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/img-20260311-231122-941-1-768x1024.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 102811,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_2510.CR3_-1024x683.jpg",
+      "localPath": "public/images/pages/hackathon-services/img-2510.cr3-1024x683.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 134306,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251011_214038899-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251011-214038899-1024x576.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 143493,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251101_192718499-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251101-192718499-1024x576.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 116928,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251101_202939209-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251101-202939209-1024x576.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 133553,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251101_202959847-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251101-202959847-1024x576.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 136224,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251101_203111876-576x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251101-203111876-576x1024.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 86344,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122315.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122315.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 103426,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122332-768x968.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122332-768x968.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 160577,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122332-812x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122332-812x1024.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 174619,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122358.png",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122358.png",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 1307028,
+      "extension": ".png",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: PNG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170641-1024x764.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20260323-170641-1024x764.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 94283,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170641-300x224.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20260323-170641-300x224.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 22120,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-171027-756x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20260323-171027-756x1024.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 123743,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF-1024x768.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-1024x768.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 174139,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result002-1024x766.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result002-1024x766.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 187445,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result03-1024x662.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result03-1024x662.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 157502,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result05y-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result05y-1024x576.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 108334,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result06-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result06-1024x576.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 125147,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result07-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result07-1024x576.jpg",
+      "category": "hackathon-services",
+      "exists": true,
+      "sizeBytes": 117447,
+      "extension": ".jpg",
+      "verificationStatus": "passed",
+      "warnings": [],
+      "notes": [
+        "Signature check: JPEG.",
+        "Migration status: downloaded."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "tatianasf-com",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static Next.js foundation for the future TatianaSF website.",
+  "scripts": {
+    "dev": "next dev",
+    "lint": "eslint .",
+    "build": "next build",
+    "public-safety": "node scripts/public-safety-scan.mjs",
+    "audit:site": "node scripts/audit-site.mjs",
+    "screenshots:wordpress": "node scripts/capture-wordpress-screenshots.mjs",
+    "inventory:assets": "node scripts/inventory-wordpress-assets.mjs",
+    "migrate:assets:batch1": "node scripts/migrate-wordpress-assets-batch-1.mjs",
+    "migrate:assets:batch2": "node scripts/migrate-wordpress-assets-batch-2.mjs",
+    "migrate:assets:batch3": "node scripts/migrate-wordpress-assets-batch-3.mjs",
+    "verify:assets:batch1": "node scripts/verify-assets-batch-1.mjs",
+    "verify:assets:batch2": "node scripts/verify-assets-batch-2.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.0",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.10",
+    "playwright": "^1.61.1",
+    "typescript": "6.0.3"
+  },
+  "overrides": {
+    "postcss": "8.5.16"
+  }
+}

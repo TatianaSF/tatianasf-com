@@ -1,0 +1,703 @@
+{
+  "summary": {
+    "batchName": "Asset Migration Batch 1",
+    "migratedAt": "2026-07-02T01:46:39.795Z",
+    "sourceInventoryFile": "docs/audit/data/wordpress-assets.json",
+    "totalAttempted": 44,
+    "totalDownloaded": 44,
+    "totalSkipped": 0,
+    "totalFailed": 0,
+    "byCategory": {
+      "icon": 3,
+      "open-graph": 3,
+      "homepage": 12,
+      "hackathon-services": 26
+    }
+  },
+  "records": [
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/cropped-TatianaSF-283x300-1-180x180.jpg",
+      "localPath": "public/icons/cropped-tatianasf-283x300-1-180x180.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 19180,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "icon",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/cropped-TatianaSF-283x300-1-192x192.jpg",
+      "localPath": "public/icons/cropped-tatianasf-283x300-1-192x192.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 19766,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "icon",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/cropped-TatianaSF-283x300-1-32x32.jpg",
+      "localPath": "public/icons/cropped-tatianasf-283x300-1-32x32.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 10880,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/",
+        "https://tatianasf.com/openai-codex-design-guide/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "icon",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/837dbb8c-d676-4f29-9d26-f8b515a9a2ab-copied-media2.png",
+      "localPath": "public/og/837dbb8c-d676-4f29-9d26-f8b515a9a2ab-copied-media2.png",
+      "status": "downloaded",
+      "contentType": "image/png",
+      "bytes": 188565,
+      "pageUsage": [
+        "https://tatianasf.com/",
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/hello-world/",
+        "https://tatianasf.com/category/uncategorized/"
+      ],
+      "category": "open-graph",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/OpenAI-Codex-Design-Guide-small.jpg",
+      "localPath": "public/og/openai-codex-design-guide-small.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 1529,
+      "pageUsage": [
+        "https://tatianasf.com/openai-codex-design-guide/"
+      ],
+      "category": "open-graph",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Swissnex-Mentor-Meetup-_-February-3-2026-_-Flickr.png",
+      "localPath": "public/og/swissnex-mentor-meetup-february-3-2026-flickr.png",
+      "status": "downloaded",
+      "contentType": "image/png",
+      "bytes": 1585576,
+      "pageUsage": [
+        "https://tatianasf.com/photo_portfolio/"
+      ],
+      "category": "open-graph",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/Hubspot_Inbound-sales-1024x790.png",
+      "localPath": "public/images/pages/home/hubspot-inbound-sales-1024x790.png",
+      "status": "downloaded",
+      "contentType": "image/png",
+      "bytes": 44884,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/IMG_1249.jpg",
+      "localPath": "public/images/pages/home/img-1249.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 119063,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_20260311_231122_941.jpg",
+      "localPath": "public/images/pages/home/img-20260311-231122-941.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 468504,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Photo-in-Nov-1-2025-HackathonSF-Google-Photos-12-1536x1154.jpg",
+      "localPath": "public/images/pages/home/photo-in-nov-1-2025-hackathonsf-google-photos-12-1536x1154.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 307559,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260303-105831-1.jpg",
+      "localPath": "public/images/pages/home/screenshot-20260303-105831-1.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 86622,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260303-105849.png",
+      "localPath": "public/images/pages/home/screenshot-20260303-105849.png",
+      "status": "downloaded",
+      "contentType": "image/png",
+      "bytes": 2018844,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260305-2353122-768x357.jpg",
+      "localPath": "public/images/pages/home/screenshot-20260305-2353122-768x357.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 49103,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/tatianasf-01.jpg",
+      "localPath": "public/images/pages/home/tatianasf-01.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 540054,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/tatianasf-02.jpg",
+      "localPath": "public/images/pages/home/tatianasf-02.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 314617,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/tatianasf-04.jpg",
+      "localPath": "public/images/pages/home/tatianasf-04.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 224008,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/06/tatianasf-08-1.jpg",
+      "localPath": "public/images/pages/home/tatianasf-08-1.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 271860,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/06/TatianaSF-photo-main.jpg",
+      "localPath": "public/images/pages/home/tatianasf-photo-main.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 179016,
+      "pageUsage": [
+        "https://tatianasf.com/"
+      ],
+      "category": "homepage",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/%F0%9F%92%B2010%F0%9F%92%B2-Tsf-Additional-Services-Infographic_20260329_164804_0000-691x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/010-tsf-additional-services-infographic-20260329-164804-0000-691x1024.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 76763,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/20250714_144816-COLLAGE-1-1024x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/20250714-144816-collage-1-1024x1024.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 238165,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/837dbb8c-d676-4f29-9d26-f8b515a9a2ab-copied-media2-1536x864.png",
+      "localPath": "public/images/pages/hackathon-services/837dbb8c-d676-4f29-9d26-f8b515a9a2ab-copied-media2-1536x864.png",
+      "status": "downloaded",
+      "contentType": "image/png",
+      "bytes": 212101,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/DSC_0758-1024x683.jpg",
+      "localPath": "public/images/pages/hackathon-services/dsc-0758-1024x683.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 112919,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_0271-1152x1536.jpg",
+      "localPath": "public/images/pages/hackathon-services/img-0271-1152x1536.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 265296,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_0334-1024x768.jpg",
+      "localPath": "public/images/pages/hackathon-services/img-0334-1024x768.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 172766,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_20260311_231122_941-1-768x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/img-20260311-231122-941-1-768x1024.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 102811,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/IMG_2510.CR3_-1024x683.jpg",
+      "localPath": "public/images/pages/hackathon-services/img-2510.cr3-1024x683.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 134306,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251011_214038899-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251011-214038899-1024x576.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 143493,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251101_192718499-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251101-192718499-1024x576.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 116928,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251101_202939209-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251101-202939209-1024x576.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 133553,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251101_202959847-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251101-202959847-1024x576.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 136224,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/PXL_20251101_203111876-576x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/pxl-20251101-203111876-576x1024.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 86344,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122315.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122315.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 103426,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122332-768x968.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122332-768x968.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 160577,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122332-812x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122332-812x1024.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 174619,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20251112-122358.png",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20251112-122358.png",
+      "status": "downloaded",
+      "contentType": "image/png",
+      "bytes": 1307028,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170641-1024x764.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20260323-170641-1024x764.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 94283,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-170641-300x224.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20260323-170641-300x224.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 22120,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2026/03/Screenshot_20260323-171027-756x1024.jpg",
+      "localPath": "public/images/pages/hackathon-services/screenshot-20260323-171027-756x1024.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 123743,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/",
+        "https://tatianasf.com/photo_portfolio/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF-1024x768.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-1024x768.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 174139,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result002-1024x766.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result002-1024x766.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 187445,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result03-1024x662.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result03-1024x662.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 157502,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result05y-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result05y-1024x576.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 108334,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result06-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result06-1024x576.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 125147,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    },
+    {
+      "originalUrl": "https://tatianasf.com/wp-content/uploads/2025/11/TatianaSF_HackathonSF_result07-1024x576.jpg",
+      "localPath": "public/images/pages/hackathon-services/tatianasf-hackathonsf-result07-1024x576.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg",
+      "bytes": 117447,
+      "pageUsage": [
+        "https://tatianasf.com/hackathon_services/"
+      ],
+      "category": "hackathon-services",
+      "criticality": "critical",
+      "notes": [
+        "Downloaded from public WordPress asset URL."
+      ]
+    }
+  ]
+}
