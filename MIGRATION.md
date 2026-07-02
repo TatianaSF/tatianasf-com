@@ -34,6 +34,8 @@ Completed so far:
 - Next.js App Router project structure.
 - Static export configuration.
 - GitHub Pages deployment workflow.
+- Public GitHub repository at `https://github.com/TatianaSF/tatianasf-com`.
+- First GitHub Pages staging deployment at `https://tatianasf.github.io/tatianasf-com/`.
 - Placeholder routes.
 - SEO helper.
 - Sitemap and robots generation.
@@ -51,6 +53,23 @@ Completed so far:
 - Asset Migration Batch 3 for `/openai-codex-design-guide/` public asset traceability.
 
 Content migration is not complete yet. No WordPress page content has been copied into App Router pages.
+
+## GitHub Pages Staging
+
+The temporary staging site is deployed through GitHub Actions:
+
+- Repository: `https://github.com/TatianaSF/tatianasf-com`
+- Visibility: public
+- Staging URL: `https://tatianasf.github.io/tatianasf-com/`
+- Source: GitHub Actions
+- Workflow run: `https://github.com/TatianaSF/tatianasf-com/actions/runs/28566642514`
+- Deployed commit: `abb037c822911251d37bd397911c22ec501d0323`
+
+The first staging deploy passed lint, public-safety, static build, artifact upload, and GitHub Pages deployment. The staging site is blocked from indexing with `noindex, nofollow` metadata and staging `robots.txt` disallows crawling.
+
+This staging URL is only a technical preview for GitHub Pages, static export, routing, sitemap, robots, and accessibility checks. It is not WordPress parity, content migration is still incomplete, and production launch remains blocked until QA and Cloudflare steps are explicitly approved.
+
+Cloudflare and `tatianasf.com` are not connected yet. No custom domain, DNS switch, or production redirect rules have been configured.
 
 ## Audit Findings
 
@@ -210,5 +229,5 @@ Before copying content into the Next.js app:
 - Metadata implementation in code.
 - Redirect implementation.
 - DNS switch.
-- Deployment.
+- Production custom-domain deployment.
 - Final launch approval.

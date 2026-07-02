@@ -72,6 +72,20 @@ npm run public-safety
 npm run build
 ```
 
+## Current Staging Deployment
+
+- GitHub repository: `https://github.com/TatianaSF/tatianasf-com`
+- Repository visibility: public
+- Temporary GitHub Pages URL: `https://tatianasf.github.io/tatianasf-com/`
+- Deployment source: GitHub Actions
+- First staging deployment status: successful
+- First deployed commit: `abb037c822911251d37bd397911c22ec501d0323`
+- Workflow run: `https://github.com/TatianaSF/tatianasf-com/actions/runs/28566642514`
+
+This staging site is a technical preview for verifying GitHub Pages, static export, routing, sitemap, robots behavior, and staging accessibility. It is not a WordPress parity rebuild.
+
+Cloudflare and `tatianasf.com` are not connected to this repository yet. Do not add a custom domain, switch DNS, or replace the live WordPress site until QA and Cloudflare launch steps are approved.
+
 ## Staging-First Launch Strategy
 
 1. Deploy this repository to the temporary GitHub Pages URL.

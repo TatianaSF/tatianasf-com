@@ -4,22 +4,31 @@ Use this checklist before moving `tatianasf.com` from WordPress to GitHub Pages.
 
 ## GitHub Pages Staging
 
-- [ ] GitHub Pages is enabled for this repository.
-- [ ] Deployment from `main` succeeds.
-- [ ] Temporary GitHub Pages URL loads.
-- [ ] Static assets load under the staging base path.
-- [ ] Staging pages are noindexed.
+- [x] GitHub Pages is enabled for this repository.
+- [x] Deployment from `main` succeeds.
+- [x] Temporary GitHub Pages URL loads.
+- [x] Static assets load under the staging base path.
+- [x] Staging pages are noindexed.
+
+First staging deployment:
+
+- Repository: `https://github.com/TatianaSF/tatianasf-com`
+- Staging URL: `https://tatianasf.github.io/tatianasf-com/`
+- Workflow run: `https://github.com/TatianaSF/tatianasf-com/actions/runs/28566642514`
+- Deployed commit: `abb037c822911251d37bd397911c22ec501d0323`
+- Status: successful technical preview only, not WordPress parity.
+- Cloudflare and `tatianasf.com` are not connected yet.
 
 ## Build Success
 
-- [ ] `npm ci` succeeds.
-- [ ] `npm run lint` succeeds.
-- [ ] `npm run public-safety` succeeds.
-- [ ] `npm run build` succeeds.
+- [x] `npm ci` succeeds.
+- [x] `npm run lint` succeeds.
+- [x] `npm run public-safety` succeeds.
+- [x] `npm run build` succeeds.
 
 ## Sitemap
 
-- [ ] `/sitemap.xml` is generated.
+- [x] `/sitemap.xml` is generated.
 - [x] Expected launch-safe canonical routes are limited to `/`, `/hackathon_services/`, `/photo_portfolio/`, and `/openai-codex-design-guide/`.
 - [x] Unwanted WordPress starter URLs are excluded from sitemap and represented only by noindex cleanup pages.
 - [ ] Old Rank Math sitemap shard URLs are handled or allowed to 404 intentionally.
@@ -27,8 +36,8 @@ Use this checklist before moving `tatianasf.com` from WordPress to GitHub Pages.
 
 ## Robots
 
-- [ ] `/robots.txt` is generated.
-- [ ] Staging robots behavior is reviewed.
+- [x] `/robots.txt` is generated.
+- [x] Staging robots behavior is reviewed.
 - [ ] Production robots behavior is reviewed.
 - [ ] `wp-admin` rules are no longer needed after static launch.
 
@@ -99,7 +108,7 @@ Use this checklist before moving `tatianasf.com` from WordPress to GitHub Pages.
 
 ## HTTPS
 
-- [ ] GitHub Pages HTTPS is active.
+- [x] GitHub Pages HTTPS is active.
 - [ ] Custom domain certificate is issued.
 - [ ] Mixed content checks pass.
 - [ ] External `http://` links are reviewed.
