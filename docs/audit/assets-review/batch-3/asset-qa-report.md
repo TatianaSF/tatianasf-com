@@ -1,6 +1,6 @@
 # Asset QA Report: Batch 3
 
-QA date: 2026-07-02T05:17:52.137Z
+QA date: 2026-07-02T05:37:38.890Z
 
 Source JSON file: `docs/audit/data/migrated-assets-batch-3.json`
 
@@ -66,7 +66,7 @@ This report verifies mapped and skipped public image/media records for `/openai-
 - Pass: Assets migration manifest includes Batch 3 mapped and skipped records - Manifest should make the no-new-downloads Batch 3 outcome explicit.
 - Pass: Asset migration plan records Batch 3 migration and QA status - Plan should distinguish migration, QA, and future page rebuild work.
 - Pass: Image inventory records Batch 3 output and QA output - Inventory should keep Batch 3 visible after regeneration.
-- Pass: Migration notes keep OpenAI Codex page content incomplete - Asset QA should not be represented as page/content migration.
+- Review: Migration notes keep OpenAI Codex page content incomplete - Asset QA should not be represented as page/content migration.
 - Pass: Parity checklist includes Batch 3 QA report - Checklist should record QA separately from page rebuild.
 - Pass: README documents the Batch 3 verification command - README should expose the new command and QA artifact locations.
 - Pass: WordPress audit records Google Drive dependency - External access remains a manual dependency outside asset QA.

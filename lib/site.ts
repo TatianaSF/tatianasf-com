@@ -2,16 +2,17 @@ export const siteConfig = {
   name: "TatianaSF",
   productionUrl: "https://tatianasf.com",
   description:
-    "Static Next.js foundation for the future TatianaSF website migration.",
+    "Personal homepage for Tatiana Isa, also known as TatianaSF.",
   navigation: [
-    { path: "/hackathon_services/", label: "Hackathon" }
+    { path: "/", label: "Home" },
+    { path: "/hackathon_services/", label: "Hackathon services" }
   ],
   routes: [
     {
       path: "/",
       label: "Home",
-      title: "TatianaSF foundation",
-      description: "Initial static foundation route."
+      title: "TatianaSF",
+      description: "Preserved WordPress homepage parity route."
     },
     {
       path: "/hackathon_services/",

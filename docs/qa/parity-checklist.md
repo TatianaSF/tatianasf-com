@@ -9,7 +9,8 @@ Use this checklist after route decisions and before replacing the current WordPr
 - [x] Asset Migration Batch 1 downloaded icons, OG images, homepage critical images, and hackathon services critical images.
 - [x] Asset Migration Batch 1 file QA report and contact sheet created.
 - [ ] Asset Migration Batch 1 contact sheet manually reviewed against WordPress baseline screenshots.
-- [ ] Homepage `/` rebuilt and checked.
+- [x] Homepage `/` Phase 1 parity rebuild implemented.
+- [ ] Homepage `/` manually reviewed against WordPress desktop/mobile screenshots.
 - [x] Hackathon services current URL `/hackathon_services/` preserved as primary route.
 - [x] Hyphen alias `/hackathon-services/` documented as noindex compatibility route, not canonical.
 - [x] Portfolio `/photo_portfolio/` preserved as a migration-scope route and included in sitemap.
@@ -21,21 +22,21 @@ Use this checklist after route decisions and before replacing the current WordPr
 
 ## Header and Footer Parity
 
-- [ ] Brand/home link matches current behavior.
-- [ ] Header navigation labels match approved source labels.
+- [x] Brand/home link matches approved behavior.
+- [x] Header navigation labels match approved source labels without exposing future placeholder routes.
 - [x] Header links do not expose incomplete future placeholder pages.
-- [ ] Footer tagline is preserved or intentionally edited.
-- [ ] Duplicated footer `Hackathon services` link is either preserved for parity or cleaned after approval.
-- [ ] LinkedIn contact CTA is preserved where approved.
+- [x] Footer tagline is preserved in English.
+- [x] Duplicated footer `Hackathon services` link is preserved for first-pass parity.
+- [x] LinkedIn contact CTA is preserved where approved.
 
 ## Homepage Parity
 
-- [ ] Main profile image and first viewport composition match screenshots.
+- [ ] Main profile image and first viewport composition manually match screenshots.
 - [x] Homepage Batch 1 critical assets downloaded.
-- [ ] Homepage page implementation uses migrated local assets.
-- [ ] Biography, work, education, skills, recognition, certification, philosophy, media, and friends sections are present if approved.
-- [ ] Long media list link labels and targets are checked.
-- [ ] Friend section labels and YouTube targets are reviewed.
+- [x] Homepage page implementation uses migrated local assets.
+- [x] Biography, work, education, skills, recognition, certification, philosophy, media, and friends sections are present.
+- [x] Long media list link labels and targets are carried into structured content.
+- [x] Friend section labels and YouTube targets are carried into structured content.
 - [ ] Images have matching crops, aspect ratios, and spacing.
 
 ## Hackathon Services Parity
@@ -76,7 +77,8 @@ Use this checklist after route decisions and before replacing the current WordPr
 - [x] Portfolio WordPress desktop baseline captured.
 - [x] OpenAI Codex Design Guide WordPress desktop baseline captured.
 - [x] Legacy WordPress post and category archive desktop baselines captured.
-- [ ] Next.js desktop pages compared against WordPress baselines after content migration.
+- [ ] Next.js homepage desktop manually compared against WordPress baseline after Phase 1 rebuild.
+- [ ] Next.js remaining desktop pages compared against WordPress baselines after content migration.
 - [ ] 404/redirect behavior checked for old URLs.
 
 ## Mobile Parity
@@ -86,8 +88,8 @@ Use this checklist after route decisions and before replacing the current WordPr
 - [x] Portfolio WordPress mobile baseline captured.
 - [x] OpenAI Codex Design Guide WordPress mobile baseline captured.
 - [x] Legacy WordPress post and category archive mobile baselines captured.
-- [ ] Header navigation behavior checked against baseline after content migration.
-- [ ] Content width and WordPress block spacing checked against baseline after content migration.
+- [ ] Homepage mobile header navigation behavior manually checked against baseline after Phase 1 rebuild.
+- [ ] Homepage content width and WordPress block spacing manually checked against baseline after Phase 1 rebuild.
 - [ ] Long headings and list items checked for wrapping after content migration.
 - [ ] Image galleries checked for crop and order after content migration.
 - [ ] CTA buttons checked for tap target size after content migration.

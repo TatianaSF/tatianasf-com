@@ -5,12 +5,12 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="site-header__inner">
-        <Link className="brand" href="/" aria-label="TatianaSF home">
+        <Link className="brand" href="/" prefetch={false} aria-label="TatianaSF home">
           {siteConfig.name}
         </Link>
         <nav className="nav" aria-label="Primary navigation">
           {siteConfig.navigation.map((item) => (
-            <Link href={item.path} key={item.path}>
+            <Link href={item.path} key={item.path} prefetch={false}>
               {item.label}
             </Link>
           ))}

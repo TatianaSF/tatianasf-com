@@ -16,7 +16,8 @@
     "migrate:assets:batch3": "node scripts/migrate-wordpress-assets-batch-3.mjs",
     "verify:assets:batch1": "node scripts/verify-assets-batch-1.mjs",
     "verify:assets:batch2": "node scripts/verify-assets-batch-2.mjs",
-    "verify:assets:batch3": "node scripts/verify-assets-batch-3.mjs"
+    "verify:assets:batch3": "node scripts/verify-assets-batch-3.mjs",
+    "qa:homepage": "go run ./tools/homepage-qa/main.go"
   },
   "dependencies": {
     "next": "16.2.10",

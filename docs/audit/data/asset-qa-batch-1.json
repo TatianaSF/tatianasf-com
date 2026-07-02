@@ -1,6 +1,6 @@
 {
   "summary": {
-    "qaDate": "2026-07-02T05:15:56.161Z",
+    "qaDate": "2026-07-02T05:37:38.888Z",
     "sourceJson": "docs/audit/data/migrated-assets-batch-1.json",
     "totalAssetsChecked": 44,
     "passedAssets": 44,
@@ -26,7 +26,7 @@
     },
     "duplicateWarnings": [],
     "documentationConsistency": {
-      "passed": true,
+      "passed": false,
       "checks": [
         {
           "label": "Batch 1 manifest total matches source JSON",
@@ -65,7 +65,7 @@
         },
         {
           "label": "Migration notes keep content migration incomplete",
-          "passed": true,
+          "passed": false,
           "note": "Assets are available for future work, but pages are not rebuilt."
         }
       ]

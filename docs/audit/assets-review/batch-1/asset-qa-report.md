@@ -1,6 +1,6 @@
 # Asset QA Report: Batch 1
 
-QA date: 2026-07-02T05:15:56.161Z
+QA date: 2026-07-02T05:37:38.888Z
 
 Source JSON file: `docs/audit/data/migrated-assets-batch-1.json`
 
@@ -40,7 +40,7 @@ This report verifies the public files downloaded during Asset Migration Batch 1.
 - Pass: Batch 1 manifest category count matches JSON for hackathon-services - Expected 26.
 - Pass: Asset migration plan records Batch 1 QA status - Plan should point to the QA report and contact sheet.
 - Pass: Image inventory avoids claiming full asset migration is complete - Inventory should keep Batch 1 separate from later batches.
-- Pass: Migration notes keep content migration incomplete - Assets are available for future work, but pages are not rebuilt.
+- Review: Migration notes keep content migration incomplete - Assets are available for future work, but pages are not rebuilt.
 
 ## Failed Assets
 

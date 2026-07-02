@@ -1,6 +1,6 @@
 {
   "summary": {
-    "qaDate": "2026-07-02T05:17:52.137Z",
+    "qaDate": "2026-07-02T05:37:38.890Z",
     "sourceJson": "docs/audit/data/migrated-assets-batch-3.json",
     "sourcePage": "https://tatianasf.com/openai-codex-design-guide/",
     "totalRecordsChecked": 11,
@@ -72,7 +72,7 @@
       }
     },
     "documentationConsistency": {
-      "passed": true,
+      "passed": false,
       "checks": [
         {
           "label": "Assets migration manifest includes Batch 3 mapped and skipped records",
@@ -91,7 +91,7 @@
         },
         {
           "label": "Migration notes keep OpenAI Codex page content incomplete",
-          "passed": true,
+          "passed": false,
           "note": "Asset QA should not be represented as page/content migration."
         },
         {

@@ -21,6 +21,7 @@ Source: live public HTML from `https://tatianasf.com/`.
 
 | Route | Decision | Canonical metadata | Robots metadata | Sitemap |
 | --- | --- | --- | --- | --- |
+| `/` | Homepage Phase 1 parity route | `/` | WordPress-audited metadata; staging remains noindexed by environment | Included |
 | `/hackathon_services/` | Primary preserved Hackathon Services route | `/hackathon_services/` | Normal page-level metadata; staging remains noindexed by environment | Included |
 | `/photo_portfolio/` | Preserved migration-scope route | `/photo_portfolio/` | Placeholder metadata; staging remains noindexed by environment | Included |
 | `/openai-codex-design-guide/` | Preserved migration-scope route | `/openai-codex-design-guide/` | Placeholder metadata; staging remains noindexed by environment | Included |
@@ -59,4 +60,5 @@ Observed object types:
 - `/photo_portfolio/` and `/openai-codex-design-guide/` are preserved in Next.js sitemap scope because they are current public WordPress page-sitemap URLs. Their placeholder metadata supports future canonical parity URLs but does not copy full WordPress metadata yet.
 - 404 navigation routes are correctly noindexed on WordPress, but they are linked from the header.
 - Future structure routes are noindexed and hidden from the Next.js primary navigation until real content is approved.
+- Homepage Phase 1 metadata now preserves the audited homepage canonical `/`, description `Name: Tatiana Isa`, and default WordPress Open Graph image through the migrated local OG asset. JSON-LD is still pending future SEO parity work.
 - The future Next.js metadata should preserve final approved titles, descriptions, canonicals, Open Graph fields, robots rules, and JSON-LD where useful.

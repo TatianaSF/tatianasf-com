@@ -1,6 +1,6 @@
 # Asset QA Report: Batch 2
 
-QA date: 2026-07-02T05:15:56.213Z
+QA date: 2026-07-02T05:37:39.427Z
 
 Source JSON file: `docs/audit/data/migrated-assets-batch-2.json`
 
@@ -48,7 +48,7 @@ This report verifies the public files downloaded or mapped during Asset Migratio
 - Pass: Assets migration manifest includes Batch 2 - Manifest should include Batch 2 totals and duplicate mapping notes.
 - Pass: Asset migration plan records Batch 2 migration and QA status - Plan should distinguish migration and QA completion from page rebuild work.
 - Pass: Image inventory avoids claiming full asset migration is complete - Inventory should keep completed batches separate from remaining inventory.
-- Pass: Migration notes keep content migration incomplete - Assets are available for future work, but pages are not rebuilt.
+- Review: Migration notes keep content migration incomplete - Assets are available for future work, but pages are not rebuilt.
 - Pass: Parity checklist includes photo portfolio asset checks - Checklist should record Batch 2 asset QA separately from page parity.
 
 ## Failed Assets

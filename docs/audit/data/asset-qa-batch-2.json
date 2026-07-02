@@ -1,6 +1,6 @@
 {
   "summary": {
-    "qaDate": "2026-07-02T05:15:56.213Z",
+    "qaDate": "2026-07-02T05:37:39.427Z",
     "sourceJson": "docs/audit/data/migrated-assets-batch-2.json",
     "sourcePage": "https://tatianasf.com/photo_portfolio/",
     "totalAssetsChecked": 28,
@@ -45,7 +45,7 @@
       ]
     },
     "documentationConsistency": {
-      "passed": true,
+      "passed": false,
       "checks": [
         {
           "label": "Assets migration manifest includes Batch 2",
@@ -64,7 +64,7 @@
         },
         {
           "label": "Migration notes keep content migration incomplete",
-          "passed": true,
+          "passed": false,
           "note": "Assets are available for future work, but pages are not rebuilt."
         },
         {

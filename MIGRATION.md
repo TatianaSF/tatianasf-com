@@ -52,8 +52,10 @@ Completed so far:
 - Route scope hardening for `/photo_portfolio/` and `/openai-codex-design-guide/` as preserved migration-scope routes.
 - Asset Migration Batch 3 for `/openai-codex-design-guide/` public asset traceability.
 - Asset Migration Batch 3 QA report, machine-readable QA data, and local visual contact sheet.
+- Homepage `/` WordPress parity Phase 1 rebuild using audited public content and Batch 1 homepage assets.
+- Homepage parity QA helper added at `tools/homepage-qa/main.go` with report output at `docs/qa/homepage-parity-report.md`.
 
-Content migration is not complete yet. No WordPress page content has been copied into App Router pages.
+Content migration is only partially complete. The homepage has a first-pass parity rebuild; `/hackathon_services/`, `/photo_portfolio/`, `/openai-codex-design-guide/`, hidden future placeholders, and legacy cleanup pages have not been rebuilt with WordPress content.
 
 ## GitHub Pages Staging
 
@@ -185,6 +187,37 @@ Batch 3 QA has verified `11` of `11` mapped or skipped records:
 
 Batch 3 QA does not mean page content migration is complete. The OpenAI Codex Design Guide page has not been rebuilt in the App Router, and Google Drive access still requires manual review.
 
+## Homepage Parity Phase 1
+
+The homepage `/` is no longer an initialization placeholder. It has been rebuilt as the first WordPress parity page using the public WordPress audit, baseline screenshots, extracted public homepage text, and migrated Batch 1 homepage assets.
+
+Homepage sections now represented in `app/page.tsx`:
+
+- Header and approved primary navigation.
+- Hero/profile area with the main TatianaSF image.
+- Personal background.
+- Work.
+- Education.
+- Skills and competencies.
+- Recognition and achievements.
+- Professional certification.
+- Personal philosophy and mission.
+- Presence in the media.
+- Friends links.
+- Footer with brand, tagline, hackathon links, and LinkedIn contact.
+
+Structured homepage content lives in `content/home.ts`. Reusable home components live under `components/home`.
+
+Homepage metadata now uses the audited WordPress homepage description `Name: Tatiana Isa`, canonical `/`, and the audited Open Graph image already migrated into `public/og`.
+
+Homepage QA:
+
+- QA helper: `tools/homepage-qa/main.go`
+- NPM command: `npm run qa:homepage`
+- Report: `docs/qa/homepage-parity-report.md`
+
+The local environment does not currently have Go available in `PATH`, so `npm run qa:homepage` is blocked locally until Go is installed. Manual static checks against `out/index.html` passed after `npm run build`; manual visual review against the WordPress desktop and mobile screenshots is still required.
+
 ## Preserved Migration-Scope Routes
 
 The current Next.js sitemap preserves these canonical launch-scope routes:
@@ -194,7 +227,7 @@ The current Next.js sitemap preserves these canonical launch-scope routes:
 - `/photo_portfolio/`
 - `/openai-codex-design-guide/`
 
-`/photo_portfolio/` and `/openai-codex-design-guide/` exist as safe placeholder routes only. They are preserved for SEO and future WordPress parity migration, but their WordPress content has not been copied into App Router pages.
+`/photo_portfolio/` and `/openai-codex-design-guide/` exist as safe placeholder routes only. They are preserved for SEO and future WordPress parity migration, but their WordPress content has not been copied into App Router pages. `/hackathon_services/` also remains a preserved placeholder until its own rebuild is explicitly approved.
 
 `/photo_portfolio/` has Batch 2 displayed assets migrated and QA-passed. `/openai-codex-design-guide/` has Batch 3 asset mapping and QA complete, but it still needs Google Drive access review and page rebuild approval before any parity claim.
 
@@ -221,19 +254,19 @@ See `docs/launch/cloudflare-redirects.md` for the full launch redirect checklist
 
 ## Recommended Next Migration Step
 
-Before copying content into the Next.js app:
+Before continuing page rebuild work:
 
 1. Keep Cloudflare redirect rules documented but disabled until GitHub Pages staging QA and final launch approval.
-2. Review the Batch 1 contact sheet against the WordPress baseline screenshots.
-3. Review the Batch 2 contact sheet against the WordPress baseline screenshots before using these files in page rebuild work.
-4. Review the Batch 3 QA contact sheet before rebuilding the OpenAI Codex Design Guide route.
-5. Convert the approved public content into structured page components.
-6. Recreate final SEO metadata and JSON-LD in Next.js.
+2. Install Go or use an environment with Go available, then run `npm run qa:homepage`.
+3. Manually review the rebuilt homepage against `home-desktop.png` and `home-mobile.png`.
+4. Review the Batch 2 contact sheet before any `/photo_portfolio/` rebuild.
+5. Review the Batch 3 QA contact sheet before rebuilding the OpenAI Codex Design Guide route.
+6. Convert the next approved public page content into structured page components only after explicit approval.
 7. Decide whether analytics should use a Google tag component, the existing GTM component, or both.
 
 ## Not Included Yet
 
-- WordPress content migration into app pages.
+- WordPress content migration into app pages other than the first-pass homepage.
 - Full asset migration for remaining WordPress images and media.
 - Metadata implementation in code.
 - Redirect implementation.

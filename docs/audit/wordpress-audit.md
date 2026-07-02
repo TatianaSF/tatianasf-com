@@ -18,6 +18,7 @@ Visual baseline screenshots: `docs/audit/screenshots/wordpress-baseline/manifest
 - Route decision applied after audit: `/hackathon_services/` is the preserved primary Hackathon Services route.
 - Route decision applied after Batch 2 QA: `/photo_portfolio/` is a preserved migration-scope route included in sitemap, with placeholder content only.
 - Route decision applied after scope hardening: `/openai-codex-design-guide/` is a preserved migration-scope route included in sitemap, with placeholder content only.
+- Homepage parity Phase 1 applied: `/` now contains first-pass WordPress parity content using migrated Batch 1 homepage assets instead of the initialization placeholder.
 - `/hackathon-services/` is not canonical; it is only a noindex compatibility route in the Next.js project.
 - Launch-safe decision applied: `/services`, `/cases`, `/media`, and `/partnership` remain future structure routes only. They are hidden from primary navigation, noindexed, and excluded from sitemap.
 - Launch-safe decision applied: `/hello-world/` and `/category/uncategorized/` are legacy WordPress cleanup routes only. They are noindexed and excluded from sitemap.
@@ -28,7 +29,7 @@ Visual baseline screenshots: `docs/audit/screenshots/wordpress-baseline/manifest
 
 | Source URL | Visible title | Purpose | In main nav | Direct Next.js route | Redirect handling | Priority |
 | --- | --- | --- | --- | --- | --- | --- |
-| `https://tatianasf.com/` | `TatianaSF` | Personal homepage, biography, work history, recognition, media list, friends section | Yes | `/` | Preserve | P0 |
+| `https://tatianasf.com/` | `TatianaSF` | Personal homepage, biography, work history, recognition, media list, friends section | Yes | `/` first-pass parity rebuild | Preserve | P0 |
 | `https://tatianasf.com/hackathon_services/` | `AMA Services` | Hackathon consulting/services landing page with FAQ, media gallery, and SlideShare links | Yes | `/hackathon_services/` | Preserve as primary route | P0 |
 | `https://tatianasf.com/hackathon-services/` | `Page not found` | Hyphen variant, not canonical on WordPress | No | `/hackathon-services/` compatibility page only | Noindex in Next.js; optional Cloudflare 301 later | P2 |
 | `https://tatianasf.com/photo_portfolio/` | `Portfolio` | Photo portfolio and image-heavy page with portrait/event/property sections | No | `/photo_portfolio/` preserved placeholder | Preserve for WordPress parity migration; included in sitemap; not content-migrated yet | P1 |
@@ -105,6 +106,7 @@ Visual baseline screenshots: `docs/audit/screenshots/wordpress-baseline/manifest
 - Footer repeats brand, tagline, hackathon links, and LinkedIn contact.
 - Desktop layout appears content-led with a narrow central content column and image blocks.
 - Mobile behavior still needs screenshot verification in a later step.
+- Next.js Phase 1 status: homepage content and first-pass visual structure have been rebuilt in `app/page.tsx`; manual screenshot review is still required before parity approval.
 
 ### Hackathon Services
 
