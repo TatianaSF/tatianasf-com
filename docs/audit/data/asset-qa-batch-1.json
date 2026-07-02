@@ -1,6 +1,6 @@
 {
   "summary": {
-    "qaDate": "2026-07-02T04:58:44.988Z",
+    "qaDate": "2026-07-02T05:15:56.161Z",
     "sourceJson": "docs/audit/data/migrated-assets-batch-1.json",
     "totalAssetsChecked": 44,
     "passedAssets": 44,

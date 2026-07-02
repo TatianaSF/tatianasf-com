@@ -16,6 +16,9 @@ Source inventory:
 - Batch 2 QA data: `docs/audit/data/asset-qa-batch-2.json`
 - Batch 2 contact sheet: `docs/audit/assets-review/batch-2/contact-sheet.html`
 - Batch 3 machine-readable output: `docs/audit/data/migrated-assets-batch-3.json`
+- Batch 3 QA report: `docs/audit/assets-review/batch-3/asset-qa-report.md`
+- Batch 3 QA data: `docs/audit/data/asset-qa-batch-3.json`
+- Batch 3 contact sheet: `docs/audit/assets-review/batch-3/contact-sheet.html`
 
 This plan is for future asset migration only. It does not download assets, migrate content, rebuild pages, deploy, switch DNS, or change production metadata.
 
@@ -190,6 +193,28 @@ Target folder created for future page-owned files:
 
 Batch 3 does not update app pages to use the mapped assets yet. Page content migration, OpenAI Codex Design Guide rebuild work, and final visual parity QA remain separate future steps.
 
+## Batch 3 QA Status
+
+Asset Migration Batch 3 QA is complete.
+
+QA results:
+
+- Records checked: `11`
+- Mapped assets checked: `5`
+- Skipped assets checked: `6`
+- Downloaded assets checked: `0`
+- Passed: `11`
+- Failed: `0`
+- Warnings: `0`
+
+QA artifacts:
+
+- Readable report: `docs/audit/assets-review/batch-3/asset-qa-report.md`
+- Machine-readable data: `docs/audit/data/asset-qa-batch-3.json`
+- Local visual review page: `docs/audit/assets-review/batch-3/contact-sheet.html`
+
+The contact sheet is a manual visual review aid. It does not mean page content migration, page rebuild work, Google Drive access review, or final parity QA is complete.
+
 ## Migration Priority
 
 ### Priority 1: Global and SEO-Critical Assets
@@ -236,7 +261,7 @@ Recommended next batch:
 
 1. Review the Batch 2 contact sheet against the WordPress baseline screenshots before approving page rebuild work.
 2. Migrate any missing homepage, hackathon, or portfolio `srcset` variants only when page implementation proves they are needed.
-3. Perform Batch 3 QA before rebuilding `/openai-codex-design-guide/`.
+3. Review the Batch 3 QA report and contact sheet before rebuilding `/openai-codex-design-guide/`.
 4. Migrate legacy cleanup assets only if the noindex cleanup pages need visible parity before Cloudflare redirects are enabled.
 
 ## Alt Text Plan

@@ -1,6 +1,6 @@
 # Image and Media Inventory
 
-Inventory date: 2026-07-02T04:58:28.015Z
+Inventory date: 2026-07-02T05:17:38.461Z
 
 Source: approved public WordPress pages at `https://tatianasf.com/`.
 
@@ -74,6 +74,15 @@ Batch 3 output:
 - Mapped from Batch 2: `1`
 - Skipped: `6`
 - Failed: `0`
+
+Batch 3 QA output:
+
+- QA report: `docs/audit/assets-review/batch-3/asset-qa-report.md`
+- QA JSON: `docs/audit/data/asset-qa-batch-3.json`
+- Contact sheet: `docs/audit/assets-review/batch-3/contact-sheet.html`
+- Passed: `11`
+- Failed: `0`
+- Warnings: `0`
 
 The full inventory below remains the planning source for later batches. Assets not included in completed batches have not been downloaded yet.
 

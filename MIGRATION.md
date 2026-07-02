@@ -51,6 +51,7 @@ Completed so far:
 - Asset Migration Batch 2 QA report, machine-readable QA data, and local visual contact sheet.
 - Route scope hardening for `/photo_portfolio/` and `/openai-codex-design-guide/` as preserved migration-scope routes.
 - Asset Migration Batch 3 for `/openai-codex-design-guide/` public asset traceability.
+- Asset Migration Batch 3 QA report, machine-readable QA data, and local visual contact sheet.
 
 Content migration is not complete yet. No WordPress page content has been copied into App Router pages.
 
@@ -176,6 +177,14 @@ Asset Migration Batch 3 reviewed and mapped `/openai-codex-design-guide/` image/
 
 Batch 3 mapped the OpenAI Codex Design Guide image to `public/og/openai-codex-design-guide-small.jpg`, mapped shared existing assets from earlier batches, and skipped optional emoji or unneeded `srcset`-only variants. Batch 3 does not mean page content migration is complete. The OpenAI Codex Design Guide page has not been rebuilt in the App Router.
 
+Batch 3 QA has verified `11` of `11` mapped or skipped records:
+
+- QA report: `docs/audit/assets-review/batch-3/asset-qa-report.md`
+- Machine-readable QA data: `docs/audit/data/asset-qa-batch-3.json`
+- Visual contact sheet: `docs/audit/assets-review/batch-3/contact-sheet.html`
+
+Batch 3 QA does not mean page content migration is complete. The OpenAI Codex Design Guide page has not been rebuilt in the App Router, and Google Drive access still requires manual review.
+
 ## Preserved Migration-Scope Routes
 
 The current Next.js sitemap preserves these canonical launch-scope routes:
@@ -187,7 +196,7 @@ The current Next.js sitemap preserves these canonical launch-scope routes:
 
 `/photo_portfolio/` and `/openai-codex-design-guide/` exist as safe placeholder routes only. They are preserved for SEO and future WordPress parity migration, but their WordPress content has not been copied into App Router pages.
 
-`/photo_portfolio/` has Batch 2 displayed assets migrated and QA-passed. `/openai-codex-design-guide/` has Batch 3 asset mapping complete, but it still needs Batch 3 QA, Google Drive access review, and page rebuild approval before any parity claim.
+`/photo_portfolio/` has Batch 2 displayed assets migrated and QA-passed. `/openai-codex-design-guide/` has Batch 3 asset mapping and QA complete, but it still needs Google Drive access review and page rebuild approval before any parity claim.
 
 ## Unknowns and Decisions Needed
 
@@ -217,7 +226,7 @@ Before copying content into the Next.js app:
 1. Keep Cloudflare redirect rules documented but disabled until GitHub Pages staging QA and final launch approval.
 2. Review the Batch 1 contact sheet against the WordPress baseline screenshots.
 3. Review the Batch 2 contact sheet against the WordPress baseline screenshots before using these files in page rebuild work.
-4. Perform Batch 3 QA before rebuilding the OpenAI Codex Design Guide route.
+4. Review the Batch 3 QA contact sheet before rebuilding the OpenAI Codex Design Guide route.
 5. Convert the approved public content into structured page components.
 6. Recreate final SEO metadata and JSON-LD in Next.js.
 7. Decide whether analytics should use a Google tag component, the existing GTM component, or both.

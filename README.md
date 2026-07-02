@@ -43,6 +43,7 @@ npm run migrate:assets:batch2
 npm run migrate:assets:batch3
 npm run verify:assets:batch1
 npm run verify:assets:batch2
+npm run verify:assets:batch3
 ```
 
 `npm run screenshots:wordpress` captures public live WordPress baseline screenshots for approved audit pages and writes a manifest to `docs/audit/screenshots/wordpress-baseline/manifest.md`.
@@ -58,6 +59,8 @@ npm run verify:assets:batch2
 `npm run verify:assets:batch1` verifies the downloaded Batch 1 files, writes machine-readable QA data to `docs/audit/data/asset-qa-batch-1.json`, writes a readable report to `docs/audit/assets-review/batch-1/asset-qa-report.md`, and creates a local visual contact sheet at `docs/audit/assets-review/batch-1/contact-sheet.html`.
 
 `npm run verify:assets:batch2` verifies the downloaded and mapped Batch 2 portfolio files, writes machine-readable QA data to `docs/audit/data/asset-qa-batch-2.json`, writes a readable report to `docs/audit/assets-review/batch-2/asset-qa-report.md`, and creates a local visual contact sheet at `docs/audit/assets-review/batch-2/contact-sheet.html`.
+
+`npm run verify:assets:batch3` verifies mapped and skipped Batch 3 OpenAI Codex Design Guide records, writes machine-readable QA data to `docs/audit/data/asset-qa-batch-3.json`, writes a readable report to `docs/audit/assets-review/batch-3/asset-qa-report.md`, and creates a local visual contact sheet at `docs/audit/assets-review/batch-3/contact-sheet.html`.
 
 ## Deployment Flow
 
@@ -111,6 +114,8 @@ Asset Migration Batch 2 has downloaded displayed `/photo_portfolio/` public imag
 Asset Migration Batch 2 QA is documented in `docs/audit/assets-review/batch-2/asset-qa-report.md`. The contact sheet is for human visual review only and does not mean page rebuild work is complete.
 
 Asset Migration Batch 3 has reviewed `/openai-codex-design-guide/` public image/media records, mapped the required existing files from Batch 1 and Batch 2, skipped optional emoji and unneeded `srcset` variants, and created `public/images/pages/openai-codex-design-guide` for future page-owned files. App pages still do not use migrated WordPress content or images.
+
+Asset Migration Batch 3 QA is documented in `docs/audit/assets-review/batch-3/asset-qa-report.md`. The contact sheet is for human visual review only and does not mean page rebuild work is complete.
 
 ## Environment Variables
 

@@ -38,6 +38,7 @@ const migratedBatch1Path = path.join(dataDir, "migrated-assets-batch-1.json");
 const migratedBatch2Path = path.join(dataDir, "migrated-assets-batch-2.json");
 const migratedBatch3Path = path.join(dataDir, "migrated-assets-batch-3.json");
 const assetQaBatch2Path = path.join(dataDir, "asset-qa-batch-2.json");
+const assetQaBatch3Path = path.join(dataDir, "asset-qa-batch-3.json");
 
 await mkdir(dataDir, { recursive: true });
 
@@ -238,12 +239,13 @@ const migratedBatch1 = await readMigratedBatch1();
 const migratedBatch2 = await readMigratedBatch2();
 const migratedBatch3 = await readMigratedBatch3();
 const assetQaBatch2 = await readAssetQaBatch2();
+const assetQaBatch3 = await readAssetQaBatch3();
 
 await writeFile(
   jsonPath,
   `${JSON.stringify({ generatedAt, pages, summary, assets }, null, 2)}\n`
 );
-await writeFile(inventoryPath, buildMarkdown(generatedAt, summary, assets, migratedBatch1, migratedBatch2, migratedBatch3, assetQaBatch2));
+await writeFile(inventoryPath, buildMarkdown(generatedAt, summary, assets, migratedBatch1, migratedBatch2, migratedBatch3, assetQaBatch2, assetQaBatch3));
 
 console.log(`Asset references found: ${summary.totalReferences}`);
 console.log(`Unique assets found: ${summary.uniqueAssets}`);
@@ -398,7 +400,15 @@ async function readAssetQaBatch2() {
   }
 }
 
-function buildMarkdown(generatedAt, summary, assets, migratedBatch1, migratedBatch2, migratedBatch3, assetQaBatch2) {
+async function readAssetQaBatch3() {
+  try {
+    return JSON.parse(await readFile(assetQaBatch3Path, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function buildMarkdown(generatedAt, summary, assets, migratedBatch1, migratedBatch2, migratedBatch3, assetQaBatch2, assetQaBatch3) {
   const lines = [
     "# Image and Media Inventory",
     "",
@@ -496,6 +506,20 @@ function buildMarkdown(generatedAt, summary, assets, migratedBatch1, migratedBat
         `- Failed: \`${migratedBatch3.summary.totalFailed}\``,
         ""
       );
+
+      if (assetQaBatch3?.summary) {
+        lines.push(
+          "Batch 3 QA output:",
+          "",
+          "- QA report: `docs/audit/assets-review/batch-3/asset-qa-report.md`",
+          "- QA JSON: `docs/audit/data/asset-qa-batch-3.json`",
+          "- Contact sheet: `docs/audit/assets-review/batch-3/contact-sheet.html`",
+          `- Passed: \`${assetQaBatch3.summary.passedRecords}\``,
+          `- Failed: \`${assetQaBatch3.summary.failedRecords}\``,
+          `- Warnings: \`${assetQaBatch3.summary.warningCount}\``,
+          ""
+        );
+      }
     }
 
     lines.push(

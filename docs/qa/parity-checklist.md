@@ -64,7 +64,8 @@ Use this checklist after route decisions and before replacing the current WordPr
 - [x] Route decision is approved for preservation.
 - [x] OpenAI Codex Design Guide asset migration Batch 3 is completed.
 - [x] OpenAI Codex Design Guide image mapped from approved inventory to the existing Batch 1 file.
-- [ ] OpenAI Codex Design Guide Batch 3 assets are QA-reviewed before page rebuild.
+- [x] OpenAI Codex Design Guide Batch 3 asset QA report and contact sheet created.
+- [ ] OpenAI Codex Design Guide Batch 3 contact sheet manually reviewed before page rebuild.
 - [ ] Main image and Google Drive CTA are preserved if retained.
 - [ ] Google Drive access is manually verified.
 
